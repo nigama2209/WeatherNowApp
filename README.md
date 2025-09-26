@@ -1,16 +1,29 @@
-# React + Vite
+🌤 Weather Now
+A simple and responsive weather application built with React + Vite + Bootstrap.
+It allows users to quickly check the current weather conditions for any city using the Open-Meteo API.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+-City Search with AutoComplete (powered by Open-Meteo Geocoding API)
+-Detects your current location using browser geolocation
+-Shows temperature, weather condition (with emojis), wind speed, and time
+-Responsive design (works on desktop & mobile)
+-Clean UI with Bootstrap styling
 
-Currently, two official plugins are available:
+🛠️ Tech Stack
+React + Vite – Frontend framework & bundler
+Bootstrap – Responsive UI components
+React-Bootstrap – Bootstrap components for React
+Open-Meteo API – Weather and geocoding data
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🌍 APIs Used
+-Weather Forecast API
+ https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
+-Geocoding API 
+ https://geocoding-api.open-meteo.com/v1/search?name={cityName}&count=5
 
-## React Compiler
+📸 Screenshots
+![Weather Now Screenshot](weatherApp.png)
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🧑‍💻 Author
+👤 Nigamanjani Kompella
+📧 knigamanjani22@gmail.com
